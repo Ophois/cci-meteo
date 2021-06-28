@@ -13,6 +13,6 @@ import { IconSearchComponent } from './components/icon-search/icon-search.compon
     CommonModule,
     FontAwesomeModule
   ],
-  exports: [ IconSearchComponent]
+  exports: [ IconSearchComponent ]
 })
 export class IconsModule { }

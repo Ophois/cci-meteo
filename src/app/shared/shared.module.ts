@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { TplMeteoComponent } from './components/tpl-meteo/tpl-meteo.component';
+import { IconsModule } from '../icons/icons.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { TplMeteoComponent } from './components/tpl-meteo/tpl-meteo.component';
   imports: [
     CommonModule, RouterModule
   ],
-  exports: [ TplMeteoComponent ]
+  exports: [ TplMeteoComponent,
+             IconsModule ]
 })
 export class SharedModule { }
