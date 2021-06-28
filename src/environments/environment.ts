@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  geoApi: 'https://geo.api.gouv.fr/communes',
+  meteoApi: 'https://api.openweathermap.org/data/2.5/onecall?appid=d2e33b810d399f2fb3d6791d161388ec&exclude=daily,hourly,minutely,alerts&units=metric&lang=fr',
+  prevApi: 'https://api.openweathermap.org/data/2.5/onecall?appid=d2e33b810d399f2fb3d6791d161388ec&exclude=current,hourly,minutely,alerts&units=metric&lang=fr'
+
 };
 
 /*
