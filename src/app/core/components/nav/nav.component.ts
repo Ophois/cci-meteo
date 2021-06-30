@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+/**
+ * Barre de navigation.
+ */
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',

@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+/**
+ * Page des crédits.
+ */
 @Component({
   selector: 'app-credits',
   templateUrl: './credits.component.html',
@@ -7,7 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreditsComponent implements OnInit {
 
+  /**
+   * Tableau des crédits.
+   */
   public credits: any[];
+  /**
+   * Constructeur. Liste complète des outils utilisés.
+   */
   constructor() {
     this.credits = [
       {nom: 'Angular', url: 'http://angular.io'},

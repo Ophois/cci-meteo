@@ -6,7 +6,6 @@ import { CreditsComponent } from './meteo/pages/credits/credits.component';
 import { MeteoComponent } from './meteo/pages/meteo/meteo.component';
 import { PrevisionsComponent } from './meteo/pages/previsions/previsions.component';
 
-
 const routes: Routes = [
   { path: '', redirectTo:'meteo', pathMatch: 'full'},
   { path: 'meteo', component: MeteoComponent},
@@ -14,7 +13,6 @@ const routes: Routes = [
   { path: 'credits', component: CreditsComponent},
   { path: 'previsions', component: PrevisionsComponent},
   { path: '**', component: PageNotFoundComponent}
-
 ];
 
 @NgModule({
